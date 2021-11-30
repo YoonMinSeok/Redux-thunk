@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.items {
+  border-bottom: 1px solid #333;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.comments{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+}
+
+.comments > div{
+  border : 1px solid #333;
+}
